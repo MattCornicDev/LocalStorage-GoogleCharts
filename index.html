@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+NOM DU SCRIPT : exemple_local_storage.htm
+REALISATION INFORMATIQUE : PK_GGH
+DATE DE CREATION : 10/06/2021
+DATE DE DERNIERE MODIFICATION : 
+OBJET : Stockage avec utilisation de localStorage et JSON
+-->
+<!-- Début script HTML -->
+<html>
+	<!-- Début entête script HTML -->
+	<head>
+		<!-- Balise meta -->
+		<meta http-equiv="Content-Type"
+		content="text/html; charset=utf-8" />
+
+        <link rel="stylesheet" href="styles.css">
+
+		<!-- Titre du script HTML -->
+		<title>SUIVI DE CROISSANCE DES ENFANTS</title>
+	</head>
+
+	<!-- Début section body du script HTML -->
+	<body>
+		<!-- Titre du traitement -->
+		<h1>GRETA GRAND HAINAUT - JavaScript - Suivi de  croissance des enfants</h1>
+        <h2>Saisie des mesures</h2>
+
+        <input value="saisir des mesures" type="submit" onClick="saisirDesMesures()"/>
+     
+     <input value="Voir les courbes des patients" type="submit" onClick="voirLesCourbesDesPatients()"/>
+     
+     <input value="Voir les courbes moyennes" type="submit" onClick="voirLesCourbesMoyennes()"/>
+    
+
+		<!-- Début script JavaScript -->
+		<script src="saisieDesMesures.js" ></script>
+        <script src="script.js"></script>
+	</body>
+</html>
