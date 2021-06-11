@@ -9,14 +9,23 @@ h1{
 #boutonValider{
     background-color: green;
     border-radius: 5px;
+    margin: 20px;
+    color: azure;
 }
 #boutonAnnuler{
     background-color: red;
     border-radius: 5px;
+    margin: 20px;
+    color: azure;
 }
 input{
     display: inline;
 }
 form{
     display: flex;
+}
+#buttonNouveauPatient{
+    background-color: rgb(46, 43, 219);
+    color: azure;
+    border-radius: 10px;
 }
