@@ -10,4 +10,7 @@
        function nouveauPatient(){
            window.location.href="suiviCroissanceEnfants.html";
        }
+       function validerNouveauPatient(){
+         window.location.href="saisieDesMesures.html";
+       }
      
