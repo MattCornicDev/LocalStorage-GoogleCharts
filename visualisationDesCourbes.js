@@ -4,18 +4,18 @@
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
       ['Age', 'Tailles en cm'],
-      ['3 mois',  0],
-      ['6 mois',  1170],
-      ['9 mois',  660],
-      ['1 an',  1030],
-      ['15mois',  1030],
-      ['18 mois',  1030],
-      ['21 mois',  1030],
-      ['2 ans',  1030],
-      ['27 mois',  1030],
-      ['30 mois',  1030],
-      ['33 mois',  1030],
-      ['3 ans',  1030],
+      ['3 mois',  50],
+      ['6 mois',  55],
+      ['9 mois',  64],
+      ['1 an',  65],
+      ['15mois',  69],
+      ['18 mois',  70],
+      ['21 mois',  75],
+      ['2 ans',  79],
+      ['27 mois',  80],
+      ['30 mois',  85],
+      ['33 mois',  96],
+      ['3 ans',  100],
     ]);
 
     var options = {
